@@ -22,7 +22,7 @@ A powerful, user-friendly, and idiomatic Kotlin client for the Google Gemini API
 ```kotlin
 // build.gradle.kts
 dependencies {
-    implementation("com.ktsdk:gemini-api:0.1.0")
+    implementation("com.ktsdk.ai:gemini-sdk:0.1.0")
 }
 ```
 
@@ -31,7 +31,7 @@ dependencies {
 ```groovy
 // build.gradle
 dependencies {
-    implementation 'com.ktsdk:gemini-api:0.1.0'
+    implementation 'com.ktsdk.ai:gemini-sdk:0.1.0'
 }
 ```
 
