@@ -743,6 +743,7 @@ class GeminiApi(
         val connectionJob = coroutineScope.launch {
             try {
                 println("[APP] Attempting to connect...")
+
                 // The connect() function suspends until the WebSocket connection is closed,
                 // either by the server, the client calling disconnect(), or an error.
                 val success = geminiClient.connect()
